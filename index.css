@@ -24,8 +24,8 @@ nav {
 nav li {
     display: flex;
     justify-content: center;
-
-
+    padding-top: 15px;          
+    padding-bottom: 5px; 
 }
 
 .mid a {
@@ -59,7 +59,8 @@ nav li {
     border-color: #000;
     border-radius: 60px;
     border-width: 2px;
-    padding: 5px;
+    padding-block: 5px;       
+    padding-inline: 10px; 
 }
 
 .mid ul a:hover {
