@@ -1,0 +1,94 @@
+@font-face {
+    font-family: "NexaB";
+    src: url(Nexa-Heavy.ttf);
+}
+
+@font-face {
+    font-family: "NexaL";
+    src: url(Nexa-ExtraLight.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'NexaB';
+    color: #fff;
+}
+
+nav {
+    background-color: #000000;
+    padding-top: 1%;
+}
+
+nav li {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.mid a {
+    text-decoration: none;
+    font-family: 'NexaL';
+    font-size: 85%;
+    color: #ffffff;
+}
+
+.background {
+    min-height: 92.8vh;
+    width: 100%;
+    background-color: #000;
+    background-image: url(https://i.pinimg.com/originals/79/a3/84/79a384c3c449ad01b0e57e790807b2c0.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    color: #fff;
+}
+
+
+.mid {
+    display: flex;
+}
+
+.mid ul {
+    padding-right: 7%;
+}
+
+.mid ul a {
+    border-color: #000;
+    border-radius: 60px;
+    border-width: 2px;
+    padding: 5px;
+}
+
+.mid ul a:hover {
+    background-color: rgba(128, 128, 128, 0.593);
+}
+
+.actual a {
+    color: #000;
+    background-color: #ffffffcf;
+}
+
+.actual ul a:hover{
+    background-color: none  ;
+}
+
+.logo {
+    margin-right: auto;
+}
+
+.discord {
+    margin-left: auto;
+    margin-right: 0.5%;
+}
+
+.ds_logo {
+    width: 30px;
+    border-style: solid;
+    border-color: #ffffff70;
+    border-radius: 100%;
+    border-width: 1px;
+    padding: 6px;
+}
