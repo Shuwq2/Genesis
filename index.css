@@ -94,6 +94,15 @@ nav li {
     padding: 6px;
 }
 
+.presta {
+    display: flex;
+    background-color: red;
+    width: 100%;
+    flex-direction: column;
+    flex-direction: column;
+    align-items: center;
+}
+
 
 footer {
     display: flex;
