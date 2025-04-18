@@ -48,10 +48,11 @@ nav li {
 
 .mid {
     display: flex;
+    justify-content: center;
 }
 
 .mid ul {
-    padding-right: 7%;
+    padding-inline: 4%;
 }
 
 .mid ul a {
@@ -83,6 +84,7 @@ nav li {
 .discord {
     margin-left: auto;
     margin-right: 2%;
+
 }
 
 .ds_logo {
