@@ -48,6 +48,7 @@ nav li {
 
 .mid {
     display: flex;
+    justify-content: center;
 }
 
 .mid ul {
