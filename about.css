@@ -50,9 +50,6 @@ nav li {
     display: flex;
 }
 
-.mid ul {
-    padding-right: 7%;
-}
 
 .mid ul a {
     border-color: #000;
