@@ -47,13 +47,14 @@ nav li {
 }
 
 .logo {
-    margin-right: 40.5%;
+    margin-right: auto;
     margin-left: 2%;
 }
 
 .discord {
     margin-left: auto;
     margin-right: 2%;
+    padding-left: 75px;
 }
 
 .ds_logo {
