@@ -48,6 +48,7 @@ nav li {
 
 
 .left{
+    display: flex;
     width: 33.33%;
     padding-left: 10px;
 }
