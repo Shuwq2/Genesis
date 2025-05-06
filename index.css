@@ -15,23 +15,3 @@
     font-family: 'NexaB';
     color: #fff;
 }
-
-
-.background {
-    min-height: 92.8vh;
-    width: 100%;
-    background-color: #000;
-    background-image: url(https://i.pinimg.com/originals/79/a3/84/79a384c3c449ad01b0e57e790807b2c0.gif);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 80%;
-    color: #fff;
-}
-.presta {
-    display: flex;
-    background-color: red;
-    width: 100%;
-    flex-direction: column;
-    flex-direction: column;
-    align-items: center;
-}
