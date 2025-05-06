@@ -4,7 +4,6 @@ nav {
 
 nav li {
     display: flex;
-    justify-content: center;
     padding-top: 15px;          
     padding-bottom: 5px; 
 }
@@ -19,6 +18,7 @@ nav li {
 .mid {
     display: flex;
     justify-content: center;
+    width: 33.33%;
 }
 
 .mid ul {
@@ -46,16 +46,17 @@ nav li {
     background-color: none  ;
 }
 
-.logo {
-    margin-right: auto;
-    margin-left: 10px;
-    padding-right: 20px;
+
+.left{
+    width: 33.33%;
+    padding-left: 10px;
 }
 
-.discord {
-    margin-left: auto;
-    margin-right: 10px;
-    padding-left: 95px;
+.right{
+    display: flex;
+    width: 33.33%;
+    justify-content: end;
+    padding-right: 10px;
 }
 
 .ds_logo {
