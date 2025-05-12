@@ -15,3 +15,10 @@
     font-family: 'NexaB';
     color: #fff;
 }
+
+.background {
+    text-align: center;  
+    background-image: url('image.png');  
+    background-size: 100% auto;  
+    min-height: 100vh;  
+  }
