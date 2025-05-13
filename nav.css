@@ -2,13 +2,14 @@ nav li {
     display: flex;
     padding-top: 15px;          
     padding-bottom: 5px; 
+    backdrop-filter: blur(2px);
 }
 
 .mid a {
     text-decoration: none;
-    font-family: 'NexaL';
+    font-family: 'NexaB';
     font-size: 85%;
-    color: #000000;
+    color: #ffffffc9;
 }
 
 .mid {
@@ -19,14 +20,17 @@ nav li {
 
 .mid ul {
     padding-inline: 4%;
+    
 }
 
 .mid ul a {
-    border-color: #000000;
     border-radius: 60px;
     border-width: 2px;
     padding-block: 5px;       
     padding-inline: 10px; 
+    backdrop-filter: blur(2px);
+    background-color: #0000003c;
+
 }
 
 .mid ul a:hover {
@@ -34,7 +38,7 @@ nav li {
 }
 
 .actual a {
-    color: #000;
+    color: #ffffffc9;
     background-color: #b92929cf;
 }
 
@@ -59,14 +63,21 @@ nav li {
 }
 
 .logo h1 {
-    color: black;
+    color: rgba(255, 255, 255, 0.886);
 }
 
 .ds_logo {
     width: 35px;
     border-style: solid;
-    border-color: #00000070;
+    border-color: #ffffff47;
     border-radius: 100%;
     border-width: 1px;
+    backdrop-filter: blur(2px);
+    background-color: #2d2d2d68;
+    border-radius: 10px;
     padding: 6px;
+}
+
+hr {
+    color: #ffffff2e;
 }
